@@ -1,0 +1,7 @@
+package coe.unosquare.bookstore.repository;
+
+import coe.unosquare.bookstore.entities.Book;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BookRepository extends JpaRepository<Book,Long> {
+}
